@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,9 +10,10 @@
       href="./favicon/Lezardon logo.jpg"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./css/all.css">
     <style>
         * {
-            border: solid blue 1px;
+            /* border: solid blue 1px; */
             margin: 0;
             padding: 0;
         }
@@ -20,6 +21,7 @@
         ul,.offers,.news_articles,.contacts_items,.news_header {
             display: flex;
             justify-content: center;
+            
         }
         h2 {
             text-align: center;
@@ -46,10 +48,36 @@
         button {
             background-color: transparent;
             border: 1px solid white;
-        
-
-
-    
+        }
+        .offer,.article, .contact {
+            margin: 40px 10px;
+        }
+        .news_header_txt {
+            margin-top: 30px;
+        }
+        header,.offers {
+            color: aliceblue;
+        }
+        header button,
+        .offers button {
+            color: aliceblue;
+        }
+        .contact {
+            width: 150px;
+            margin: 20px 35px;
+        }
+        .header_logo {
+            margin: 40px 0 10px;
+        }
+        .offers {
+            background-color: black;
+        }
+        .news {
+            background-color: rgb(245, 242, 238);
+        }
+        .article {
+            background-color: aliceblue;
+        }
     </style>
   </head>
   <body></body>
@@ -226,8 +254,8 @@
         <p>Tél. 04 28 29 81 03</p>         
         <p>contact@gamingcampus.fr</p> 
         <h2>nous suivre</h2>        
-        <p>icones twiter facebook ...</p>         
-        <p>icone 2018 Gaming Campus. <br>
+        <p>icones <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i> facebook ...</p>         
+        <p>&copy; 2018 Gaming Campus. <br>
             Tous droits réservés.
         </p>         
         <p>Investisseurs</p>         
